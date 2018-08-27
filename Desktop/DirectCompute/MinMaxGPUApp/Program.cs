@@ -153,6 +153,8 @@ namespace MinMaxGPUApp
         {
             var program = new Program();
             program.Run();
+			Console.WriteLine("按任意键结束...");
+			Console.ReadLine();
         }
     }
 }
